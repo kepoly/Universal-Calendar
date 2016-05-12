@@ -1,0 +1,75 @@
+@import url(//fonts.googleapis.com/css?family=Lato);
+@import url(//fonts.googleapis.com/css?family=Exo);
+@import url(//fonts.googleapis.com/css?family=Strait);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+
+body {
+    font-family: "Exo";
+}
+.container {
+    width: 44.3%;
+}
+.calendarWrapperWrap {
+    display:inline-block;
+    position:relative;
+    left:50%;
+}
+
+.calendarWrapper {
+    position:relative;
+    left:-50%;
+}
+
+.calendarHeader {
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+.dayOfWeekHeader {
+    float: left;
+    text-align: center;
+    min-width: 150px;
+}
+.bookingCalendarDayBox {
+    min-width: 150px;
+    min-height: 85px;
+    float: left;
+    border: 1px solid black;
+    padding: 20px;
+    color: black;
+}
+.bookingCalendarDayBox:hover {
+    background: dodgerblue;
+    cursor: pointer;
+}
+
+.dayBoxGrey {
+    background: grey;
+}
+
+.dayBoxGreen {
+    background: greenyellow;
+}
+
+.previousDay {
+    opacity: 0.5;
+}
+
+.bookingCalendarDayBox:nth-child(11) {
+    clear: both;
+}
+
+.bookingCalendarDayBox:nth-child(18) {
+    clear: both;
+}
+
+.bookingCalendarDayBox:nth-child(25) {
+    clear: both;
+}
+
+.bookingCalendarDayBox:nth-child(32) {
+    clear: both;
+}
+
+.bookingCalendarDayBox:nth-child(39) {
+    clear: both;
+}
