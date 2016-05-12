@@ -56,7 +56,7 @@ class CalendarController
         $host="localhost";
         $user="root";
         $password="";
-        $db = "gbfly_booking";
+        $db = "booking";
 
         $link = mysqli_connect($host, $user, $password);
         mysqli_select_db($link, $db) or die(mysqli_error($link));
