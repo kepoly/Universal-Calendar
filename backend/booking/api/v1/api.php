@@ -34,7 +34,7 @@ class API extends REST
                 $this->response('Error: Endpoint does not exist.', 404);
             }
         } else {
-            $this->response('CSCGaming Blackjack API V1', 404);
+            $this->response('Universal Calendar API V1', 404);
         }
 
         // If the method not exist with in this class "Page not found".
