@@ -11,7 +11,6 @@ app.filter('startFrom', function() {
 });
 
 //api
-
 app.factory("services", ['$http', function ($http) {
     var serviceBase = 'backend/booking/api/v1/';
     var obj = {};
@@ -23,8 +22,6 @@ app.factory("services", ['$http', function ($http) {
     }
     return obj;
 }]);
-
-
 
 //beautiful directive <3
 app.directive("scroll", function ($window) {
@@ -39,7 +36,6 @@ app.directive("scroll", function ($window) {
         });
     };
 });
-
 
 //booking controller
 app.controller('bookingPageCtrl', function ($scope, $http, $location, services) {
